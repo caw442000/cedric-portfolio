@@ -11,35 +11,37 @@ export default class Navbar extends Component {
     return (
       <nav className="nav" id="navbar">
         <div className="nav-content">
-          <img
-            src={logo}
+          <h1 className="nav-logo"
+            alt="Logo"
+            onClick={this.scrollToTop}>Cedric Winbush's Portfolio</h1>
+            {/* src={logo}
             className="nav-logo"
             alt="Logo"
             onClick={this.scrollToTop}
-          />
+          /> */}
           <ul className="nav-items">
             <li className="nav-item">
               <Link
                 activeClass="active"
-                to="section1"
+                to="about"
                 spy={true}
                 smooth={true}
                 offset={-70}
                 duration={500}
               >
-                Section 1
+                About
               </Link>
             </li>
             <li className="nav-item">
               <Link
                 activeClass="active"
-                to="section2"
+                to="projects"
                 spy={true}
                 smooth={true}
                 offset={-70}
                 duration={500}
               >
-                Section 2
+                Projects
               </Link>
             </li>
             <li className="nav-item">

@@ -13,7 +13,8 @@
 
 .nav-logo {
   height: 60px;
-  width: 60px;
+  width: 200px;
+  text-align: center;
 }
 
 .nav-logo:hover {
@@ -34,11 +35,14 @@
   display: inline;
   margin-left: 2rem;
   color: #333;
+  padding: 0 .5rem;
 }
 
 .nav-item:hover {
   color: black;
   cursor: pointer;
+  background: aqua;
+
 }
 
 .section {
