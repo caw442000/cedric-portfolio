@@ -1,8 +1,8 @@
 import React, { Component } from "react";
-import logo from "./logo.svg";
+// import logo from "./logo.svg";
 import "./App.css";
 import Navbar from "./Components/Navbar";
-import Section from "./Components/Section";
+// import Section from "./Components/Section";
 import dummyText from "./DummyText";
 import Projects from "./Components/Projects";
 import Contact from "./Components/Contact";

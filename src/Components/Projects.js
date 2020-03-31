@@ -1,5 +1,5 @@
 import React from "react";
-import SvgIcon from "@material-ui/core/SvgIcon";
+// import SvgIcon from "@material-ui/core/SvgIcon";
 import Typography from '@material-ui/core/Typography';
 
 import GitHubIcon from "@material-ui/icons/GitHub";
