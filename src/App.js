@@ -5,6 +5,7 @@ import Navbar from "./Components/Navbar";
 import Section from "./Components/Section";
 import dummyText from "./DummyText";
 import Projects from "./Components/Projects";
+import Contact from "./Components/Contact";
 class App extends Component {
   render() {
     return (
@@ -22,11 +23,11 @@ class App extends Component {
           dark={false}
           id="projects"
         />
-        <Section
-          title="Section 3"
+        <Contact
+          title="Contact"
           subtitle={dummyText}
           dark={true}
-          id="section3"
+          id="contact"
         />
         <Section
           title="Section 4"
