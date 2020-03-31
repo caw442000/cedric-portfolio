@@ -6,14 +6,15 @@ import Section from "./Components/Section";
 import dummyText from "./DummyText";
 import Projects from "./Components/Projects";
 import Contact from "./Components/Contact";
+import About from "./Components/About";
 class App extends Component {
   render() {
     return (
       <div className="App">
         <Navbar />
-        <Section
+        <About
           title="About"
-          subtitle={false}
+          // subtitle={false}
           dark={true}
           id="about"
         />
@@ -29,18 +30,7 @@ class App extends Component {
           dark={true}
           id="contact"
         />
-        <Section
-          title="Section 4"
-          subtitle={dummyText}
-          dark={false}
-          id="section4"
-        />
-        <Section
-          title="Section 5"
-          subtitle={dummyText}
-          dark={true}
-          id="section5"
-        />
+
       </div>
     );
   }
