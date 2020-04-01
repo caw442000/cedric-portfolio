@@ -7,6 +7,14 @@ import Link from "@material-ui/core/Link";
 import HttpIcon from "@material-ui/icons/Http";
 
 const Projects = ({ title, subtitle, dark, id }) => {
+
+
+  const weightLiftingText = `I was tasked with utilizing my knowledge of HTML CSS and LESS to generate a multipage marketing page for a group project in school `;
+  const betterProfessorText = `Utilized my skills with React.js ContextAPI and CRUD to develop a frontend dashboard to tie into our backend API so a professor can keep track of their students deadlines.`;
+
+  const choreTrackerText = `Used Formik and Material UI with React.js to generate a view and functionality for a frontend dashboard to allow a parent to add their children and assign chores to each child.`;
+
+  
   return (
     <div className={"section" + (dark ? " section-dark" : "")}>
       <div className="section-content" id={id}>
@@ -39,7 +47,7 @@ const Projects = ({ title, subtitle, dark, id }) => {
               </Typography>
             </div>
             <Typography>
-              <p className="project-text">{subtitle}</p>
+              <p className="project-text">{weightLiftingText}</p>
             </Typography>
           </div>
         </div>
@@ -72,7 +80,7 @@ const Projects = ({ title, subtitle, dark, id }) => {
               </Typography>
             </div>
             <div>
-              <p className="project-text">{subtitle}</p>
+              <p className="project-text">{choreTrackerText}</p>
             </div>
           </div>
         </div>
@@ -105,7 +113,7 @@ const Projects = ({ title, subtitle, dark, id }) => {
               </Typography>
             </div>
             <div>
-              <p className="project-text">{subtitle}</p>
+              <p className="project-text">{betterProfessorText}</p>
             </div>
           </div>
         </div>
